@@ -129,3 +129,68 @@ body {
 .insta a:hover .tooltip::before {
     border-right-color: #FE0C74;
 }
+
+/* LINKEDIN  */
+
+.linked a:hover {
+    background: #0A66C2;
+    color: #f1ecec;
+    transform: translateY(-5px);
+}
+
+.linked a:hover .tooltip {
+    background: #0A66C2;
+    color: #fff;
+}
+
+.linked a:hover .tooltip::before {
+    border-right-color: #0A66C2;
+}
+
+/* GITHUB  */
+.git a:hover {
+    background: #fceded;
+    color: #000;
+    transform: translateY(-5px);
+}
+
+.git a:hover .tooltip {
+    background: #fceded;
+    color: #000;
+}
+
+.git a:hover .tooltip::before {
+    border-right-color: #fceded;
+}
+
+/* WHATSAPP */
+.tele a:hover {
+    background: #43E961;
+    color: #f8e3e3;
+    transform: translateY(-5px);
+}
+
+.tele a:hover .tooltip {
+    background: #43E961;
+    color: #fff;
+}
+
+.tele a:hover .tooltip::before {
+    border-right-color: #43E961;
+}
+
+/* GIFT  */
+.gift a:hover {
+    background: #32B1B8;
+    color: #2c2a2a;
+    transform: translateY(-5px);
+}
+
+.gift a:hover .tooltip {
+    background: #32B1B8;
+    color: #fff;
+}
+
+.gift a:hover .tooltip::before {
+    border-right-color: #32B1B8;
+}
